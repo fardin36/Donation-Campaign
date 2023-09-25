@@ -49,7 +49,7 @@ const Details = () => {
                     <img className='w-full' src={item.picture.url1} alt="" />
                     <div className='absolute bottom-0 bg-[#0B0B0B80] w-full p-9 flex justify-start items-center'>
                         <Link >
-                            <button onClick={() => handleDonate()} className="btn btn-primary border-none px-6 py-4"
+                            <button onClick={() => handleDonate()} className="btn btn-primary border-none px-6 py-4 rounded-[0.25rem]"
                                 style={{ background: item.text_color }}>Donate ${item.price}</button>
                         </Link>
                     </div>
