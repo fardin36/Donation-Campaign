@@ -10,8 +10,8 @@
         "category_bg": "#0052FF33",
         "card_bg": "#0052FF26",
         "text_color": "#0052FF",
-        "description": "Support our health initiatives and help us promote well-being in the community.",
-        "price": 25
+        "description": "Support our health initiatives and help us promote well-being in the community. Your generous contribution will enable us to expand our programs, provide medical check-ups, and offer educational workshops on healthy living. Together, we can make a positive impact on the lives of individuals and families, ensuring a healthier and happier future. Join us in our mission for a better and healthier community.",
+        "price": 30
     },
     {
         "id": 2,
@@ -24,8 +24,8 @@
         "category_bg": "#FF444A33",
         "card_bg": "#FF444A26",
         "text_color": "#FF444A",
-        "description": "Provide underprivileged children with access to quality education and a brighter future.",
-        "price": 30
+        "description": "Provide underprivileged children with access to quality education and a brighter future. Your generous donation will fund scholarships, school supplies, and educational programs for children who lack the resources to pursue their dreams. By investing in education, you are empowering the next generation to break the cycle of poverty and reach their full potential. Join us in making education accessible for all, and together, we can transform lives.",
+        "price": 35
     },
     {
         "id": 3,
@@ -38,8 +38,8 @@
         "category_bg": "#79C23F33",
         "card_bg": "#79C23F26",
         "text_color": "#79C23F",
-        "description": "Help us provide warm clothing to those in need during the cold winter months.",
-        "price": 15
+        "description": "Help us provide warm clothing to those in need during the cold winter months. Your generous contribution will ensure that vulnerable individuals, including homeless people and struggling families, stay warm and safe during the harsh winter season. By donating, you are spreading warmth and showing compassion to those who need it most. Together, we can make a significant difference in the lives of those facing the cold without adequate clothing.",
+        "price": 20
     },
     {
         "id": 4,
@@ -52,8 +52,8 @@
         "category_bg": "#F8714733",
         "card_bg": "#F8714726",
         "text_color": "#F87147",
-        "description": "Support our mission to eliminate hunger and provide nutritious meals to the less fortunate.",
-        "price": 20
+        "description": "Support our mission to eliminate hunger and provide nutritious meals to the less fortunate. Your generous donation will help us expand our food distribution efforts, ensuring that families in need have access to fresh and healthy food options. Together, we can work towards a hunger-free community where no one goes to bed hungry. Join us in making a meaningful impact on the lives of those facing food insecurity.",
+        "price": 25
     },
     {
         "id": 5,
@@ -66,8 +66,8 @@
         "category_bg": "#0052FF33",
         "card_bg": "#0052FF26",
         "text_color": "#0052FF",
-        "description": "Raise awareness and provide resources for mental health support in our community.",
-        "price": 35
+        "description": "Raise awareness and provide resources for mental health support in our community. Your generous support will enable us to create a safe and stigma-free environment for individuals facing mental health challenges. We will offer counseling services, educational workshops, and community outreach programs to promote mental well-being. Together, we can make a positive impact on the lives of those struggling with mental health issues and ensure they receive the care and support they deserve.",
+        "price": 40
     },
     {
         "id": 6,
@@ -80,8 +80,8 @@
         "category_bg": "#FF444A33",
         "card_bg": "#FF444A26",
         "text_color": "#FF444A",
-        "description": "Help deserving students pursue their dreams through higher education with your support.",
-        "price": 50
+        "description": "Help deserving students pursue their dreams through higher education with your support. Your generous contribution will fund scholarships for talented and motivated students who aspire to achieve a higher education degree. By investing in their futures, you are opening doors to countless opportunities and empowering them to make a lasting impact on society. Join us in shaping the leaders of tomorrow through education.",
+        "price": 60
     },
     {
         "id": 7,
@@ -94,8 +94,8 @@
         "category_bg": "#79C23F33",
         "card_bg": "#79C23F26",
         "text_color": "#79C23F",
-        "description": "Donate winter coats to keep vulnerable individuals warm in the cold season.",
-        "price": 10
+        "description": "Donate winter coats to keep vulnerable individuals warm in the cold season. Your generous donation will provide winter coats to homeless individuals and families struggling to stay warm during the winter nights. By contributing, you are ensuring that no one has to endure the freezing cold without proper protection. Join us in spreading warmth and comfort during the winter season.",
+        "price": 15
     },
     {
         "id": 8,
@@ -108,8 +108,8 @@
         "category_bg": "#F8714733",
         "card_bg": "#F8714726",
         "text_color": "#F87147",
-        "description": "Provide meal kits to struggling families, ensuring they have access to nutritious food.",
-        "price": 18
+        "description": "Provide meal kits to struggling families, ensuring they have access to nutritious food. Your generous contribution will allow us to assemble and distribute meal kits to families facing food insecurity. These kits will include a variety of nutritious foods, helping families meet their dietary needs and enjoy balanced meals. Join us in the fight against hunger and support struggling families in our community.",
+        "price": 25
     },
     {
         "id": 9,
@@ -122,8 +122,8 @@
         "category_bg": "#0052FF33",
         "card_bg": "#0052FF26",
         "text_color": "#0052FF",
-        "description": "Support programs aimed at improving the health and well-being of children in our community.",
-        "price": 28
+        "description": "Support programs aimed at improving the health and well-being of children in our community. Your generous support will fund initiatives such as pediatric clinics, health education programs, and access to necessary medical services for children in need. By investing in the health of our youth, you are ensuring a brighter and healthier future for our community. Join us in making a difference in the lives of children and their families.",
+        "price": 35
     },
     {
         "id": 10,
@@ -136,8 +136,8 @@
         "category_bg": "#FF444A33",
         "card_bg": "#FF444A26",
         "text_color": "#FF444A",
-        "description": "Inspire the next generation with STEM education opportunities and resources.",
-        "price": 40
+        "description": "Inspire the next generation with STEM education opportunities and resources. Your generous contribution will support STEM (Science, Technology, Engineering, and Mathematics) education programs, providing students with hands-on learning experiences, access to cutting-edge technology, and mentorship from experts in the field. By investing in STEM education, you are empowering future innovators and problem-solvers. Join us in shaping the leaders of the technological era.",
+        "price": 50
     },
     {
         "id": 11,
@@ -150,8 +150,8 @@
         "category_bg": "#79C23F33",
         "card_bg": "#79C23F26",
         "text_color": "#79C23F",
-        "description": "Provide warm blankets to homeless individuals during the cold winter nights.",
-        "price": 12
+        "description": "Provide warm blankets to homeless individuals during the cold winter nights. Your generous donation will ensure that individuals experiencing homelessness have access to warm and comforting blankets to shield them from the freezing cold. By contributing, you are offering a lifeline to those in dire need and providing them with a sense of security and warmth during the harsh winter months. Join us in making a difference in the lives of the less fortunate.",
+        "price": 20
     },
     {
         "id": 12,
@@ -164,7 +164,7 @@
         "category_bg": "#F8714733",
         "card_bg": "#F8714726",
         "text_color": "#F87147",
-        "description": "Contribute to our community food bank and help fight hunger in our neighborhood.",
-        "price": 22
+        "description": "Contribute to our community food bank and help fight hunger in our neighborhood. Your generous contribution will enable us to maintain a well-stocked food bank, ensuring that individuals and families facing food insecurity have access to essential food items. By donating, you are making a direct impact on alleviating hunger in our community and providing hope to those in need. Join us in the fight against hunger and make a positive change in our neighborhood.",
+        "price": 28
     }
 ]

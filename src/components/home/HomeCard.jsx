@@ -3,12 +3,9 @@ import { Link } from 'react-router-dom';
 
 const HomeCard = ({ id, image1, category, title, category_bg, card_bg, text_color }) => {
 
-    const cardBg = `bg-[${card_bg}]`
-    console.log(cardBg);
-
     return (
 
-        <Link to={'/details/1'}>
+        <Link to={`/details/${id}` }>
             <div className="h-full max-w-[19.5rem] rounded-lg">
                 <div className="">
                     <img src={image1} alt={`${category} category image`} />

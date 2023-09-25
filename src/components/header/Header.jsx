@@ -1,29 +1,33 @@
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
         <div className="navbar bg-base-100 md:px-16 md:py-9 lg:px-32 lg:py-12">
             <div className="navbar-start h-10 md:h-12 lg:h-[4.5rem]">
-                <Link className='h-full'><img className='h-full' src="/Logo.png" alt="Donation Campaign" /></Link>
+                <a href={'/'} className='h-full'><img className='h-full' src="/Logo.png" alt="Donation Campaign" /></a>
             </div>
             <div className="navbar-end">
                 <div className="hidden md:flex">
                     <ul className="menu menu-horizontal font-normal text-lg flex-nowrap">
-                        <li><NavLink to={"/"} style={({ isActive }) => {
-                            return {
-                                textDecoration: isActive ? "underline" : "",
-                                color: isActive ? "red" : "",
-                                background: isActive ? "none" : ""
-                            };
-                        }}>Home</NavLink></li>
-                        <li><NavLink to={"/donation"} style={({ isActive }) => {
+                        <li><NavLink to={'/'}
+                            className={({ isActive, isPending }) =>
+                                isPending ? "pending" : isActive ? "active" : ""
+                            }
+                            style={({ isActive }) => {
+                                return {
+                                    textDecoration: isActive ? "underline" : "",
+                                    color: isActive ? "red" : "",
+                                    background: isActive ? "none" : ""
+                                };
+                            }}>Home</NavLink></li>
+                        <li><NavLink to={'/donation'} style={({ isActive }) => {
                             return {
                                 textDecoration: isActive ? "underline" : "",
                                 color: isActive ? "red" : "",
                                 background: isActive ? "none" : ""
                             };
                         }}>Donation</NavLink></li>
-                        <li><NavLink to={"/statistics"} style={({ isActive }) => {
+                        <li><NavLink to={'/statistics'} style={({ isActive }) => {
                             return {
                                 textDecoration: isActive ? "underline" : "",
                                 color: isActive ? "red" : "",
