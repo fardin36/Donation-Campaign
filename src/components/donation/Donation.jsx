@@ -13,15 +13,15 @@ const Donation = () => {
         const donated = items.filter(item => storedDonations.includes(item.id))
         setDonated(donated);
     }, []);
-    console.log(donated);
 
 
 
     return (
-        <div className='grid lg:grid-cols-2 gap-6 md:px-16 lg:px-32 xl:px-32 place-items-center'>
+        <div className='grid lg:grid-cols-2 gap-6 px-2 py-3 md:py-0 md:px-16 lg:px-32 xl:px-32 place-items-center'>
             {donated?.map(item =>
                 <DonationCard
                     key={item.id}
+                    id={item.id}
                     image2={item.picture.url2}
                     category={item.category}
                     title={item.title}

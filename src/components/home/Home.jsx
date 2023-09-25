@@ -7,7 +7,7 @@ const Home = () => {
     // console.log(items);
 
     return (
-        <div className='grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:px-16 lg:px-32 xl:px-32 place-items-center'>
+        <div className='grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 px-2 py-3 md:py-0 md:px-16 lg:px-32 xl:px-32 place-items-center'>
             {items?.map(item =>
                 <HomeCard
                     key={item.id}

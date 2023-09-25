@@ -47,14 +47,14 @@ const Details = () => {
             <div className='md:px-16 md:py-9 lg:px-32'>
                 <div className='w-full relative bg-slate-600'>
                     <img className='w-full' src={item.picture.url1} alt="" />
-                    <div className='absolute bottom-0 bg-[#0B0B0B80] w-full p-9 flex justify-start items-center'>
+                    <div className='absolute bottom-0 bg-[#0B0B0B80] w-full p-7 md:p-9 flex justify-start items-center'>
                         <Link >
                             <button onClick={() => handleDonate()} className="btn btn-primary border-none px-6 py-4 rounded-[0.25rem]"
                                 style={{ background: item.text_color }}>Donate ${item.price}</button>
                         </Link>
                     </div>
                 </div>
-                <div className='py-14'>
+                <div className='px-2 py-10 md:px-0 md:py-14'>
                     <h2 className='font-bold text-4xl pb-6'>{item.title}</h2>
                     <p className='font-normal text-base'>{item.description}</p>
                 </div>
