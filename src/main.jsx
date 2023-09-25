@@ -13,13 +13,13 @@ import Statistics from './components/statistics/Statistics'
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <MainBody></MainBody> ,
+    element: <MainBody></MainBody>,
     errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",
-        element: <Home></Home>
-        
+        element: <Home></Home>,
+        loader: () => fetch(`data.json`)
       },
       {
         path: "/donation",

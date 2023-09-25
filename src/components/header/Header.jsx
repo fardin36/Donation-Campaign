@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 const Header = () => {
     return (
         <div className="navbar bg-base-100 md:px-16 md:py-9 lg:px-32 lg:py-12">
-            <div className="navbar-start h-12 h-10 md:h-12 lg:h-[4.5rem]">
+            <div className="navbar-start h-10 md:h-12 lg:h-[4.5rem]">
                 <Link className='h-full'><img className='h-full' src="/Logo.png" alt="Donation Campaign" /></Link>
             </div>
             <div className="navbar-end">
