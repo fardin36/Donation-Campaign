@@ -1,0 +1,158 @@
+[
+    {
+        "picture": {
+            "url1": "https://i.ibb.co/MRmnWnp/Health.png",
+            "url2": "https://i.ibb.co/hHZTMDw/Health2.png"
+        },
+        "title": "Healthy Living",
+        "category": "Health",
+        "category_bg": "#0052FF33",
+        "card_bg": "#0052FF26",
+        "text_color": "#0052FF",
+        "description": "Support our health initiatives and help us promote well-being in the community.",
+        "price": 25
+    },
+    {
+        "picture": {
+            "url1": "https://i.ibb.co/1dVTskc/Education.png",
+            "url2": "https://i.ibb.co/rwg3JFw/Education2.png"
+        },
+        "title": "Education for All",
+        "category": "Education",
+        "category_bg": "#FF444A33",
+        "card_bg": "#FF444A26",
+        "text_color": "#FF444A",
+        "description": "Provide underprivileged children with access to quality education and a brighter future.",
+        "price": 30
+    },
+    {
+        "picture": {
+            "url1": "https://i.ibb.co/9GxGSXR/Clothing.png",
+            "url2": "https://i.ibb.co/WHGJWS2/Clothing2.png"
+        },
+        "title": "Warmth for All",
+        "category": "Clothing",
+        "category_bg": "#79C23F33",
+        "card_bg": "#79C23F26",
+        "text_color": "#79C23F",
+        "description": "Help us provide warm clothing to those in need during the cold winter months.",
+        "price": 15
+    },
+    {
+        "picture": {
+            "url1": "https://i.ibb.co/F6NwqN9/Food.png",
+            "url2": "https://i.ibb.co/Q6XWTYz/Food2.png"
+        },
+        "title": "Food for the Hungry",
+        "category": "Food",
+        "category_bg": "#F8714733",
+        "card_bg": "#F8714726",
+        "text_color": "#F87147",
+        "description": "Support our mission to eliminate hunger and provide nutritious meals to the less fortunate.",
+        "price": 20
+    },
+    {
+        "picture": {
+            "url1": "https://i.ibb.co/MRmnWnp/Health.png",
+            "url2": "https://i.ibb.co/hHZTMDw/Health2.png"
+        },
+        "title": "Mental Health Matters",
+        "category": "Health",
+        "category_bg": "#0052FF33",
+        "card_bg": "#0052FF26",
+        "text_color": "#0052FF",
+        "description": "Raise awareness and provide resources for mental health support in our community.",
+        "price": 35
+    },
+    {
+        "picture": {
+            "url1": "https://i.ibb.co/1dVTskc/Education.png",
+            "url2": "https://i.ibb.co/rwg3JFw/Education2.png"
+        },
+        "title": "Scholarship Fund",
+        "category": "Education",
+        "category_bg": "#FF444A33",
+        "card_bg": "#FF444A26",
+        "text_color": "#FF444A",
+        "description": "Help deserving students pursue their dreams through higher education with your support.",
+        "price": 50
+    },
+    {
+        "picture": {
+            "url1": "https://i.ibb.co/9GxGSXR/Clothing.png",
+            "url2": "https://i.ibb.co/WHGJWS2/Clothing2.png"
+        },
+        "title": "Winter Coats Drive",
+        "category": "Clothing",
+        "category_bg": "#79C23F33",
+        "card_bg": "#79C23F26",
+        "text_color": "#79C23F",
+        "description": "Donate winter coats to keep vulnerable individuals warm in the cold season.",
+        "price": 10
+    },
+    {
+        "picture": {
+            "url1": "https://i.ibb.co/F6NwqN9/Food.png",
+            "url2": "https://i.ibb.co/Q6XWTYz/Food2.png"
+        },
+        "title": "Meal Kits for Families",
+        "category": "Food",
+        "category_bg": "#F8714733",
+        "card_bg": "#F8714726",
+        "text_color": "#F87147",
+        "description": "Provide meal kits to struggling families, ensuring they have access to nutritious food.",
+        "price": 18
+    },
+    {
+        "picture": {
+            "url1": "https://i.ibb.co/MRmnWnp/Health.png",
+            "url2": "https://i.ibb.co/hHZTMDw/Health2.png"
+        },
+        "title": "Children's Health Initiative",
+        "category": "Health",
+        "category_bg": "#0052FF33",
+        "card_bg": "#0052FF26",
+        "text_color": "#0052FF",
+        "description": "Support programs aimed at improving the health and well-being of children in our community.",
+        "price": 28
+    },
+    {
+        "picture": {
+            "url1": "https://i.ibb.co/1dVTskc/Education.png",
+            "url2": "https://i.ibb.co/rwg3JFw/Education2.png"
+        },
+        "title": "STEM Education Drive",
+        "category": "Education",
+        "category_bg": "#FF444A33",
+        "card_bg": "#FF444A26",
+        "text_color": "#FF444A",
+        "description": "Inspire the next generation with STEM education opportunities and resources.",
+        "price": 40
+    },
+    {
+        "picture": {
+            "url1": "https://i.ibb.co/9GxGSXR/Clothing.png",
+            "url2": "https://i.ibb.co/WHGJWS2/Clothing2.png"
+        },
+        "title": "Warm Blanket Outreach",
+        "category": "Clothing",
+        "category_bg": "#79C23F33",
+        "card_bg": "#79C23F26",
+        "text_color": "#79C23F",
+        "description": "Provide warm blankets to homeless individuals during the cold winter nights.",
+        "price": 12
+    },
+    {
+        "picture": {
+            "url1": "https://i.ibb.co/F6NwqN9/Food.png",
+            "url2": "https://i.ibb.co/Q6XWTYz/Food2.png"
+        },
+        "title": "Community Food Bank",
+        "category": "Food",
+        "category_bg": "#F8714733",
+        "card_bg": "#F8714726",
+        "text_color": "#F87147",
+        "description": "Contribute to our community food bank and help fight hunger in our neighborhood.",
+        "price": 22
+    }
+]
