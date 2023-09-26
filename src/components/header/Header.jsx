@@ -41,21 +41,25 @@ const Header = () => {
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 md:h-8 md:w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </label>
                     <ul tabIndex="0" className="menu menu-sm dropdown-content mt-3 z-[100] p-2 shadow bg-base-100 rounded-box w-24 right-0 font-normal text-lg">
-                        <li><NavLink to={"/"} style={({ isActive }) => {
-                            return {
-                                textDecoration: isActive ? "underline" : "",
-                                color: isActive ? "red" : "",
-                                background: isActive ? "none" : ""
-                            };
-                        }}>Home</NavLink></li>
-                        <li><NavLink to={"/donation"} style={({ isActive }) => {
+                        <li><NavLink to={'/'}
+                            className={({ isActive, isPending }) =>
+                                isPending ? "pending" : isActive ? "active" : ""
+                            }
+                            style={({ isActive }) => {
+                                return {
+                                    textDecoration: isActive ? "underline" : "",
+                                    color: isActive ? "red" : "",
+                                    background: isActive ? "none" : ""
+                                };
+                            }}>Home</NavLink></li>
+                        <li><NavLink to={'/donation'} style={({ isActive }) => {
                             return {
                                 textDecoration: isActive ? "underline" : "",
                                 color: isActive ? "red" : "",
                                 background: isActive ? "none" : ""
                             };
                         }}>Donation</NavLink></li>
-                        <li><NavLink to={"/statistics"} style={({ isActive }) => {
+                        <li><NavLink to={'/statistics'} style={({ isActive }) => {
                             return {
                                 textDecoration: isActive ? "underline" : "",
                                 color: isActive ? "red" : "",

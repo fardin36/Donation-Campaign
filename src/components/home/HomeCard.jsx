@@ -1,4 +1,4 @@
-import { prototype } from 'postcss/lib/previous-map';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
 const HomeCard = ({ id, image1, category, title, category_bg, card_bg, text_color }) => {
@@ -21,21 +21,13 @@ const HomeCard = ({ id, image1, category, title, category_bg, card_bg, text_colo
 };
 
 HomeCard.propTypes = {
-    id: prototype.number,
-    image1: prototype.string,
-    category: prototype.string,
-    title: prototype.string,
-    category_bg: prototype.string,
-    card_bg: prototype.string,
-    text_color: prototype.string,
+    id: PropTypes.number,
+    image1: PropTypes.string,
+    category: PropTypes.string,
+    title: PropTypes.string,
+    category_bg: PropTypes.string,
+    card_bg: PropTypes.string,
+    text_color: PropTypes.string,
 }
-
-//   optionalArray: PropTypes.array,
-//   optionalBool: PropTypes.bool,
-//   optionalFunc: PropTypes.func,
-//   optionalNumber: PropTypes.number,
-//   optionalObject: PropTypes.object,
-//   optionalString: PropTypes.string,
-//   optionalSymbol: PropTypes.symbol,
 
 export default HomeCard;

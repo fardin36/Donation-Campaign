@@ -22,7 +22,4 @@ const storeDonation = id => {
     }
 };
 
-
-
-
 export { getStoredDonations, storeDonation };

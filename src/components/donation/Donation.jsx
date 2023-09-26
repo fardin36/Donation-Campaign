@@ -39,7 +39,7 @@ const Donation = () => {
                 )}
             </div>
             <div className={donated.length == donatedToShow ? 'hidden' : ''}>
-                <button onClick={() => setDonatedToShow(donated.length)} className="btn btn-primary my-5" type="button">See all</button>
+                <button onClick={() => setDonatedToShow(donated.length)} className="btn btn-primary my-5 bg-[#009444] text-white border-none hover:bg-[#0052FF]" type="button">See all</button>
             </div>
         </div>
     );

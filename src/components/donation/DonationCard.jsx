@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { Link } from "react-router-dom";
 
 const DonationCard = ({ id, image2, category, title, category_bg, card_bg, text_color, price }) => {
@@ -18,5 +19,16 @@ const DonationCard = ({ id, image2, category, title, category_bg, card_bg, text_
         </div>
     );
 };
+
+DonationCard.propTypes = {
+    id: PropTypes.number,
+    image2: PropTypes.string,
+    category: PropTypes.string,
+    title: PropTypes.string,
+    category_bg: PropTypes.string,
+    card_bg: PropTypes.string,
+    text_color: PropTypes.string,
+    price: PropTypes.number,
+}
 
 export default DonationCard;
