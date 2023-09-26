@@ -1,10 +1,11 @@
+import { prototype } from 'postcss/lib/previous-map';
 import { Link } from 'react-router-dom';
 
 const HomeCard = ({ id, image1, category, title, category_bg, card_bg, text_color }) => {
 
     return (
 
-        <Link to={`/details/${id}` }>
+        <Link to={`/details/${id}`}>
             <div className="h-full max-w-[19.5rem] rounded-lg">
                 <div className="">
                     <img src={image1} alt={`${category} category image`} />
@@ -18,5 +19,23 @@ const HomeCard = ({ id, image1, category, title, category_bg, card_bg, text_colo
 
     );
 };
+
+HomeCard.propTypes = {
+    id: prototype.number,
+    image1: prototype.string,
+    category: prototype.string,
+    title: prototype.string,
+    category_bg: prototype.string,
+    card_bg: prototype.string,
+    text_color: prototype.string,
+}
+
+//   optionalArray: PropTypes.array,
+//   optionalBool: PropTypes.bool,
+//   optionalFunc: PropTypes.func,
+//   optionalNumber: PropTypes.number,
+//   optionalObject: PropTypes.object,
+//   optionalString: PropTypes.string,
+//   optionalSymbol: PropTypes.symbol,
 
 export default HomeCard;

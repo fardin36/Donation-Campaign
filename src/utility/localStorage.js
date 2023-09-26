@@ -25,4 +25,4 @@ const storeDonation = id => {
 
 
 
-export {getStoredDonations, storeDonation};
+export { getStoredDonations, storeDonation };

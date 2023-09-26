@@ -8,7 +8,6 @@ const Details = () => {
 
     const id = useParams();
     const items = useLoaderData();
-    // console.log(items);
     const item = items.find(item => item.id == id.id);
 
     const handleDonate = () => {
