@@ -24,8 +24,8 @@ const Donation = () => {
 
     return (
         <div className="pb-8 flex flex-col items-center">
-            <div className='grid lg:grid-cols-2 gap-6 px-2 pt-3 md:py-0 md:px-16 lg:px-32 xl:px-32 place-items-center'>
-                { donated.length > 0 ? donated?.slice(0, donatedToShow).map(item =>
+            {donated.length > 0 ? <div className='grid lg:grid-cols-2 gap-6 px-2 pt-3 md:py-0 md:px-16 lg:px-32 xl:px-32 place-items-center'>
+                {donated?.slice(0, donatedToShow).map(item =>
                     <DonationCard
                         key={item.id}
                         id={item.id}
@@ -37,8 +37,9 @@ const Donation = () => {
                         text_color={item.text_color}
                         price={item.price}
                     ></DonationCard>
-                ) : <PleaseDonate></PleaseDonate>}
-            </div>
+                )}
+            </div> : <PleaseDonate></PleaseDonate>}
+
             <div className={donated.length == donatedToShow ? 'hidden' : ''}>
                 <button onClick={() => setDonatedToShow(donated.length)} className="btn btn-primary my-5 bg-[#009444] text-white border-none hover:bg-[#0052FF]" type="button">See all</button>
             </div>

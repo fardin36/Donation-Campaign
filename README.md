@@ -1,8 +1,13 @@
-# React + Vite
+# Project Features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Functional search field.
+2. Dynamic home page data.
+3. Different data theme for different categories.
+4. Onclick function to show details.
+5. Functional donate and view details button. 
+6. Toast on successful donation.
+7. Donation page to show the donations already done.
+8. 404 PAGE NOT FOUND page.
+9. Storing data on local storage.
+10. Dynamic PieChart.
+11. Responsive is all devices.
